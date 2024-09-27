@@ -1,6 +1,6 @@
 from typing import Union
 from sqlalchemy.orm import Session
-from fastapi import FastAPI, Depends, FastAPI, HTTPException
+from fastapi import FastAPI, Depends, HTTPException
 
 from . import crud, models, schemas
 from .database import SessionLocal, engine
